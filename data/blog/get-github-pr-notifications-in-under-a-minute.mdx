@@ -1,0 +1,77 @@
+---
+title: 'How to get Github PR Notifications in Slack (in under a minute!)'
+date: '2024-01-07'
+lastmod: '2024-01-07'
+tags: ['slack', 'github', 'pull requests', 'code review', 'team', 'tools', 'slack notifications']
+draft: false
+summary: 'Set up Github PR notifications in Slack in under a minute (No code required). Improve your team collaboration and workflow.'
+images: ['/static/images/twitter-card.png']
+---
+
+## Streamline your Github and Slack workflow in under a minute
+
+Get Github PR notifications in your team's Slack channel without getting spammed with notifications.
+
+Are you tired of constantly switching between Github and Slack? Do you get frustrated when you forget to check a pull request, or even worse, your pull request gets forgotten and no one approves it!? We're here to help.
+
+Today we're going to share a tool that has immensely helped our Github and Slack workflow.
+
+And you will not need any complex configuration, you won't even need to do any code!
+
+## Let's get started
+
+There are a multitude of Github and Slack integrations to choose from to achieve this. Here are some options that we tried and our thoughts on them:
+
+1. [the official Github + Slack app](https://slack.com/apps/A01BP7R4KNY-github)
+   Thoughts: The app is not highly configurable and it spammed us with a ton of notificaitons! We had to mute it after 2 days of use and even had to uninstall it. We find this to be great for personal notifcations, but if you're subscribing to repository pull request events - it can get messy real quick!
+
+2. [a Github Action](https://github.com/marketplace/actions/slack-notify)
+   Thoughts: We found it better than the Github app because it did not spam us with notificaitons, we were also able to customize the messaging. But it only displayed the pull requests that were newly opened. It didn't show us the realtime status of our team's pull requests which made it hard to know which ones were already approved or merged.
+
+3. [the PullNotifier slack app](https://pullnotifier.com/)
+   Thoughts: We found this to be the best solution to match our needs. It sent a notification when a pull request was opened (not draft), then updated that same message with the realtime status of the app - so it didn't spam us with messages + we instantly knew when we checked our Slack channel which pull requests were yet to be reviewed/checked.
+
+![Github Traffic](https://marketplace-screenshots.githubusercontent.com/16624/38359f38-ccf7-4ba6-8358-45495b53e7b7?auto=webp&format=jpeg&width=670&dpr=2)
+
+The image above best described the difference between these three approaches.
+
+## App installation
+
+We weren't kidding when we said that the set-up would just take less than 1 minute. Installing the app and making it work for your team is too easy. You can check the quick video below to see how:
+
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/FP6p4fppPMA"
+  title="Get Github PR notifications in Slack in under 1 minute"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+></iframe>
+
+If a 30 second video is too long for you, here is a summary of the steps:
+
+1. Connect the app to Github
+2. Connect the app to your target Slack channel
+3. Try to send a test notification to confirm that the connection is working
+4. Enjoy the seamless integration ❤️
+
+## PR Notifications Demo
+
+Now that the [PullNotifier](https://pullnotifier.com) is finally set up for our organization. Let's take a look at how the PR notifications are being sent to our Slack channel, here's a short demo:
+
+<video controls height="600px">
+  <source src="https://i.imgur.com/zQhKBba.mp4" type="video/webm" />
+</video>
+
+And now compare this with how the **Github App** sends notifications:
+
+<video controls height="600px">
+  <source src="https://i.imgur.com/UaFjM69_lq.mp4" type="video/webm" />
+</video>
+
+And _Voilà_! Your team will now receive notifications efficiently, which will in turn improve your collaboration and code review process.
+
+## Conclusion
+
+I hope you enjoyed this short guide on how to get Github PR notifications on your Slack channel. If you have any questions, feedback or suggestions, feel free to [reach out to us](https://go.crisp.chat/chat/embed/?website_id=614e2629-0efd-41c8-83f2-6afe761fa6f7). We're always online for you ❤️
